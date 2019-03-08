@@ -1,0 +1,48 @@
+doctype html
+html(lang="en")
+  head
+    title Social Media Analysis
+
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    
+
+    link(rel="stylesheet" href="/css/bootstrap.min.css")
+    link(rel="stylesheet" href="/css/index.css")
+    link(rel="stylesheet" href="/css/highcharts.css")
+    link(href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet")
+    link(rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous")
+    link(link rel="stylesheet" href="/css/simplebar.min.css")
+
+    script(type='text/javascript' src="/js/simplebar.min.js")
+    script(type='text/javascript' src="/js/jquery-3.3.1.min.js")
+    script(type='text/javascript' src="/js/popper.min.js")
+    script(type='text/javascript' src="/js/bootstrap.min.js")
+    script(type='text/javascript' src="/js/highcharts.js")
+    script(type='text/javascript' src="/js/networkgraph.js")
+    script(type='text/javascript' src="/js/echarts.min.js")
+    script(type='text/javascript' src="/js/echarts-wordcloud.min.js")
+    script(type='text/javascript' src="/js/moment.min.js")
+    script(type='text/javascript' src="/js/scroll.js")
+    script(type='text/javascript' src="/js/graph.js")
+
+    
+
+    meta(name="Description" content="Author:Muhammad Nur Hafez bin Busra(1161302378)")
+    meta(name="theme-color" content="#FFFFFF")
+    meta(name="apple-mobile-web-app-capable" content="yes")
+    meta(name="apple-mobile-web-app-status-bar-style" content="default")
+
+  body
+    div.wrapper
+      div#overlay.fixed-top
+      div#sidelay.fixed-bottom.active
+      div#sidecontainer
+      div#topcontainer
+      div#maincontent.active
+        div.mx-auto.mxw12
+          include dashboard.pug 
+      div#cprt
+        hr.my-3
+        p © Copyright 2019 Multimedia University | ALL RIGHTS RESERVED
+      
+    
